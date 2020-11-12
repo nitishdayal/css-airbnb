@@ -1,3 +1,70 @@
-h1 {
-  color: salmon;
+body {
+  background-color: rgb(237, 239, 236);
+  margin: 0 auto;
+  text-align: center;
+  color: darkslategray;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  min-width: 1200px;
+}
+
+button {
+  height: 50px;
+  width: 300px;
+  background-color: white;
+  border: 1px solid lightgray;
+  font-size: 1em;
+  color: slategray;
+  font-weight: bolder;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em auto;
+  width: 50vw;
+  min-width: 1000px;
+}
+
+.container div {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+}
+
+#san-fran {
+  background: url("./../img/san-francisco.jpg");
+  background-size: cover;
+}
+
+#new-york {
+  background: url("./../img/new-york.jpg");
+  background-size: cover;
+}
+
+#london {
+  background: url("./../img/london.jpg");
+  background-size: cover;
+}
+
+#napa {
+  background: url("./../img/napa.jpg");
+  background-size: cover;
+}
+
+#sonoma {
+  background: url("./../img/sonoma.jpg");
+  background-size: cover;
+}
+
+#san-fran2 {
+  background: url("./../img/san-francisco-2.jpg");
+  background-size: cover;
 }
